@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buen Pastor - Fútbol Sala</title>
+<style>
+:root{--color1:#0b3d91;--color2:#f5b800;--fondo:#f4f6fa;--texto:#1c2330;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--fondo);color:var(--texto);}
+header{background:var(--color1);color:#fff;text-align:center;padding:40px 16px;}
+header h1{font-size:2.4rem;letter-spacing:2px;}
+header p{color:var(--color2);margin-top:8px;font-weight:bold;}
+nav{background:var(--color2);display:flex;justify-content:center;gap:24px;padding:12px;flex-wrap:wrap;}
+nav a{color:var(--color1);text-decoration:none;font-weight:bold;}
+section{max-width:1000px;margin:32px auto;padding:0 16px;}
+section h2{color:var(--color1);margin-bottom:16px;border-left:6px solid var(--color2);padding-left:10px;}
+.jugadores{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;}
+.tarjeta{background:#fff;border-radius:12px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,.12);}
+.tarjeta .foto{width:100%;height:150px;background:#dfe5f0;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#7a869a;margin-bottom:10px;}
+.tarjeta .numero{float:right;background:var(--color1);color:#fff;border-radius:50%;width:38px;height:38px;display:flex;align-items:center;justify-content:center;font-weight:bold;}
+.tarjeta h3{color:var(--color1);}
+.tarjeta .posicion{color:var(--color2);font-weight:bold;margin-bottom:8px;}
+.tarjeta ul{list-style:none;font-size:.9rem;line-height:1.6;}
+.partidos{background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.12);overflow:hidden;}
+.partido{display:flex;justify-content:space-between;padding:14px 16px;border-bottom:1px solid #e6eaf2;flex-wrap:wrap;gap:6px;}
+.partido:last-child{border-bottom:none;}
+footer{text-align:center;padding:24px;color:#7a869a;font-size:.85rem;}
+</style>
+</head>
+<body>
+
+<header>
+<h1>BUEN PASTOR</h1>
+<p>Equipo oficial de fútbol sala</p>
+</header>
+
+<nav>
+<a href="#jugadores">Jugadores</a>
+<a href="#partidos">Partidos</a>
+</nav>
+
+<section id="jugadores">
+<h2>Plantilla</h2>
+<div class="jugadores">
+
+<div class="tarjeta">
+<div class="numero">1</div>
+<div class="foto">Foto</div>
+<h3>Nombre del jugador</h3>
+<div class="posicion">Portero</div>
+<ul>
+<li>Edad: --</li>
+<li>Pierna buena: --</li>
+<li>Pierna mala: --</li>
+<li>Goles: 0</li>
+<li>Asistencias: 0</li>
+<li>Cualidades físicas: --</li>
+<li>Último partido: --</li>
+</ul>
+</div>
+
+<div class="tarjeta">
+<div class="numero">2</div>
+<div class="foto">Foto</div>
+<h3>Nombre del jugador</h3>
+<div class="posicion">Cierre</div>
+<ul>
+<li>Edad: --</li>
+<li>Pierna buena: --</li>
+<li>Pierna mala: --</li>
+<li>Goles: 0</li>
+<li>Asistencias: 0</li>
+<li>Cualidades físicas: --</li>
+<li>Último partido: --</li>
+</ul>
+</div>
+
+<div class="tarjeta">
+<div class="numero">3</div>
+<div class="foto">Foto</div>
+<h3>Nombre del jugador</h3>
+<div class="posicion">Ala</div>
+<ul>
+<li>Edad: --</li>
+<li>Pierna buena: --</li>
+<li>Pierna mala: --</li>
+<li>Goles: 0</li>
+<li>Asistencias: 0</li>
+<li>Cualidades físicas: --</li>
+<li>Último partido: --</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="partidos">
+<h2>Partidos</h2>
+<div class="partidos">
+<div class="partido"><span>Fecha: por definir</span><span>Buen Pastor vs Rival</span><span>Resultado: --</span></div>
+</div>
+</section>
+
+<footer>© Buen Pastor - Fútbol Sala</footer>
+
+</body>
+</html>
